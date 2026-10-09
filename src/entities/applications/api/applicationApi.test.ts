@@ -1,4 +1,5 @@
 import { fetchApplications } from "./ApplicationsApi";
+import seed from "../../../app/mocks/applications.seed.json";
 
 beforeEach(() => {
   vi.useFakeTimers();
@@ -14,6 +15,7 @@ describe("fetchApplications", () => {
     await vi.advanceTimersByTimeAsync(500);
     const { items, total } = await promise;
 
+    expect(items).toEqual(seed.slice(0, 10));
     expect(items).toHaveLength(10);
     expect(total).toBe(45);
   });
