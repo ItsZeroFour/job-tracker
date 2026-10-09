@@ -1,0 +1,439 @@
+[
+  {
+    "id": "0279b6a6-8f97-47b0-ad7c-e3c9b4a69f3c",
+    "company": "Тандем",
+    "position": "React Developer",
+    "status": "applied",
+    "salary": 140000,
+    "link": "https://hh.ru/vacancy/92500715",
+    "createdAt": "2026-10-06T03:23:00.000Z"
+  },
+  {
+    "id": "6c6fa611-5ab3-4edf-ae59-5ed3a8b317fa",
+    "company": "Градиент",
+    "position": "React / TypeScript Developer",
+    "status": "screening",
+    "salary": 260000,
+    "link": "https://hh.ru/vacancy/90908841",
+    "notes": "Созвон с HR назначен на среду",
+    "createdAt": "2026-10-05T02:14:00.000Z"
+  },
+  {
+    "id": "3ff350bf-766e-4b15-874e-bc192ef91276",
+    "company": "Ядро",
+    "position": "React Developer",
+    "status": "interview",
+    "notes": "Техническое интервью: хуки, TypeScript, TanStack Query",
+    "createdAt": "2026-10-04T22:26:00.000Z"
+  },
+  {
+    "id": "969b6662-0562-4059-968c-c69b1064005c",
+    "company": "Спектр",
+    "position": "Middle React Developer",
+    "status": "rejected",
+    "salary": 300000,
+    "link": "https://hh.ru/vacancy/93694634",
+    "notes": "Выбрали другого кандидата",
+    "createdAt": "2026-10-03T22:57:00.000Z"
+  },
+  {
+    "id": "0e8fa8e0-284d-42e5-87f7-e1fbda4bd9ca",
+    "company": "Ритм",
+    "position": "React Developer",
+    "status": "interview",
+    "salary": 170000,
+    "link": "https://hh.ru/vacancy/91149597",
+    "notes": "Финальное интервью с CTO на следующей неделе",
+    "createdAt": "2026-10-03T22:05:00.000Z"
+  },
+  {
+    "id": "abf3ad39-fec2-4bbe-a624-5bfa4fcca39a",
+    "company": "Рубикон",
+    "position": "Middle Frontend Engineer",
+    "status": "interview",
+    "salary": 260000,
+    "link": "https://hh.ru/vacancy/98683481",
+    "notes": "Вопросы по тестированию и оптимизации рендеров",
+    "createdAt": "2026-10-01T05:46:00.000Z"
+  },
+  {
+    "id": "19db3ad0-ddd1-4fb2-bb98-2ef8daf61a26",
+    "company": "Синергия Софт",
+    "position": "React / TypeScript Developer",
+    "status": "rejected",
+    "salary": 200000,
+    "link": "https://hh.ru/vacancy/97606962",
+    "notes": "Не подошли по стеку",
+    "createdAt": "2026-09-28T03:38:00.000Z"
+  },
+  {
+    "id": "b92da22b-21df-406f-8a0b-3c3336d8393a",
+    "company": "Фокус Медиа",
+    "position": "Frontend",
+    "status": "interview",
+    "salary": 190000,
+    "link": "https://hh.ru/vacancy/97935169",
+    "notes": "Вопросы по тестированию и оптимизации рендеров",
+    "createdAt": "2026-09-26T07:54:00.000Z"
+  },
+  {
+    "id": "bb026576-f512-44c3-b253-d2186c4a37ea",
+    "company": "Мост",
+    "position": "Frontend Developer (React)",
+    "status": "rejected",
+    "salary": 160000,
+    "link": "https://hh.ru/vacancy/93185957",
+    "notes": "Не подошли по стеку",
+    "createdAt": "2026-09-25T08:23:00.000Z"
+  },
+  {
+    "id": "be0f051b-1b66-45a9-a3c4-36571d8cbbac",
+    "company": "Магнит Тех",
+    "position": "Middle Frontend Developer",
+    "status": "interview",
+    "salary": 200000,
+    "link": "https://hh.ru/vacancy/94727085",
+    "notes": "Финальное интервью с CTO на следующей неделе",
+    "createdAt": "2026-09-25T03:47:00.000Z"
+  },
+  {
+    "id": "d10bd1d0-3317-4470-b8f1-6a81787f2425",
+    "company": "Синергия Софт",
+    "position": "Frontend Developer (React)",
+    "status": "applied",
+    "salary": 230000,
+    "link": "https://hh.ru/vacancy/95120253",
+    "notes": "Откликнулся через hh.ru, пока без ответа",
+    "createdAt": "2026-09-24T08:18:00.000Z"
+  },
+  {
+    "id": "85d51695-90b2-4633-956b-8c0ca8499b92",
+    "company": "Лотос",
+    "position": "Middle Frontend Engineer",
+    "status": "rejected",
+    "salary": 200000,
+    "link": "https://hh.ru/vacancy/93426900",
+    "notes": "Не подошли по стеку",
+    "createdAt": "2026-09-23T04:35:00.000Z"
+  },
+  {
+    "id": "0710d430-f071-4879-94c6-3cd889456f27",
+    "company": "Айсберг Лабс",
+    "position": "React Developer",
+    "status": "rejected",
+    "salary": 200000,
+    "link": "https://hh.ru/vacancy/92995870",
+    "createdAt": "2026-09-22T08:54:00.000Z"
+  },
+  {
+    "id": "080aadfb-e7c9-4b26-9141-25c63a9bedd4",
+    "company": "Таймлайн",
+    "position": "Middle Frontend Engineer",
+    "status": "rejected",
+    "salary": 140000,
+    "link": "https://hh.ru/vacancy/98626108",
+    "notes": "Отказ после технического интервью",
+    "createdAt": "2026-09-20T22:29:00.000Z"
+  },
+  {
+    "id": "759cde66-bacf-43d0-8b1f-9163ce9ff57f",
+    "company": "Нордлайн",
+    "position": "React Developer",
+    "status": "screening",
+    "salary": 240000,
+    "link": "https://hh.ru/vacancy/91322047",
+    "createdAt": "2026-09-19T22:21:00.000Z"
+  },
+  {
+    "id": "ab7f089a-cd5f-4822-a966-08aaee49f329",
+    "company": "Техносфера Плюс",
+    "position": "Middle React Developer",
+    "status": "screening",
+    "salary": 200000,
+    "link": "https://hh.ru/vacancy/92670896",
+    "notes": "Созвон с HR назначен на среду",
+    "createdAt": "2026-09-14T08:06:00.000Z"
+  },
+  {
+    "id": "475287aa-5408-49ac-a601-ddd03170f437",
+    "company": "Вектор Диджитал",
+    "position": "React Developer",
+    "status": "applied",
+    "salary": 200000,
+    "link": "https://hh.ru/vacancy/95891254",
+    "createdAt": "2026-09-12T22:07:00.000Z"
+  },
+  {
+    "id": "1bf90e27-dc96-425e-8cf3-a17156dc8907",
+    "company": "Максимум Софт",
+    "position": "Middle React Developer",
+    "status": "interview",
+    "salary": 180000,
+    "link": "https://hh.ru/vacancy/93191175",
+    "notes": "Финальное интервью с CTO на следующей неделе",
+    "createdAt": "2026-09-10T06:33:00.000Z"
+  },
+  {
+    "id": "5715bd6f-a416-4293-84c2-e2e3444ea7c8",
+    "company": "Зенит Системс",
+    "position": "React Developer",
+    "status": "offer",
+    "salary": 210000,
+    "link": "https://hh.ru/vacancy/97294150",
+    "notes": "Предложили оффер, обсуждаем вилку",
+    "createdAt": "2026-09-09T08:14:00.000Z"
+  },
+  {
+    "id": "4ccc9bc2-a53f-4a28-abf3-e3fc21813d25",
+    "company": "Вершина",
+    "position": "Frontend Developer (React)",
+    "status": "rejected",
+    "salary": 220000,
+    "link": "https://hh.ru/vacancy/91217071",
+    "notes": "Выбрали другого кандидата",
+    "createdAt": "2026-09-08T23:24:00.000Z"
+  },
+  {
+    "id": "17e011b7-f810-4383-83c7-2ba8d605e770",
+    "company": "Парус",
+    "position": "Middle React Developer",
+    "status": "interview",
+    "salary": 170000,
+    "link": "https://hh.ru/vacancy/96818496",
+    "notes": "Вопросы по тестированию и оптимизации рендеров",
+    "createdAt": "2026-09-08T05:05:00.000Z"
+  },
+  {
+    "id": "bf7b539b-0f9a-4a4b-8acd-4e10bc594585",
+    "company": "Север Диджитал",
+    "position": "Middle Frontend Engineer",
+    "status": "applied",
+    "salary": 130000,
+    "link": "https://hh.ru/vacancy/90841248",
+    "createdAt": "2026-09-08T00:02:00.000Z"
+  },
+  {
+    "id": "6dadd6c7-95a7-4d79-bf3c-4c06434308bc",
+    "company": "Пульсар",
+    "position": "React / TypeScript Developer",
+    "status": "offer",
+    "link": "https://hh.ru/vacancy/93679591",
+    "notes": "Предложили оффер, обсуждаем вилку",
+    "createdAt": "2026-09-06T01:55:00.000Z"
+  },
+  {
+    "id": "1c11f735-dc71-4d96-8c0f-d195c17af08a",
+    "company": "Лигра",
+    "position": "Middle Frontend Developer",
+    "status": "screening",
+    "salary": 320000,
+    "link": "https://hh.ru/vacancy/92684052",
+    "notes": "Прошёл скрининг, ждут решения техлида",
+    "createdAt": "2026-08-31T07:36:00.000Z"
+  },
+  {
+    "id": "5fb8d16c-2720-497d-b2eb-d6899be578c7",
+    "company": "Облако 9",
+    "position": "Middle Frontend Developer",
+    "status": "rejected",
+    "salary": 290000,
+    "link": "https://hh.ru/vacancy/98897858",
+    "notes": "Выбрали другого кандидата",
+    "createdAt": "2026-08-31T03:29:00.000Z"
+  },
+  {
+    "id": "f10c718b-1eb0-438a-a75d-d5af3c365296",
+    "company": "Атлант Софт",
+    "position": "Middle React Developer",
+    "status": "screening",
+    "salary": 300000,
+    "link": "https://hh.ru/vacancy/99974376",
+    "notes": "Созвон с HR назначен на среду",
+    "createdAt": "2026-08-30T07:34:00.000Z"
+  },
+  {
+    "id": "439472e6-da58-4e8a-a25d-6b29afffcfd2",
+    "company": "Платформа 24",
+    "position": "Frontend Developer (React)",
+    "status": "applied",
+    "salary": 200000,
+    "link": "https://hh.ru/vacancy/90852264",
+    "notes": "Отправил резюме и сопроводительное письмо",
+    "createdAt": "2026-08-29T02:07:00.000Z"
+  },
+  {
+    "id": "10f1bc81-448a-4a9e-a6b2-bc5b50c187fc",
+    "company": "Кварк",
+    "position": "Middle React Developer",
+    "status": "applied",
+    "salary": 300000,
+    "link": "https://hh.ru/vacancy/95279418",
+    "notes": "Откликнулся через hh.ru, пока без ответа",
+    "createdAt": "2026-08-28T01:35:00.000Z"
+  },
+  {
+    "id": "d0e6e660-7c69-4ee1-bb5e-4bcf15ed6269",
+    "company": "Контур Девелопмент",
+    "position": "React Developer",
+    "status": "screening",
+    "salary": 290000,
+    "link": "https://hh.ru/vacancy/92109911",
+    "notes": "HR уточнила ожидания по зарплате",
+    "createdAt": "2026-08-27T01:25:00.000Z"
+  },
+  {
+    "id": "77d21e02-ff01-4f99-988c-24c961b1cd22",
+    "company": "Мегаполис Тех",
+    "position": "Frontend-разработчик (React, TypeScript)",
+    "status": "applied",
+    "salary": 290000,
+    "link": "https://hh.ru/vacancy/90192619",
+    "notes": "Отправил резюме и сопроводительное письмо",
+    "createdAt": "2026-08-26T00:12:00.000Z"
+  },
+  {
+    "id": "df57c59a-8715-4103-83da-c0432a45c2ab",
+    "company": "Альфа-Код",
+    "position": "React / TypeScript Developer",
+    "status": "offer",
+    "salary": 180000,
+    "link": "https://hh.ru/vacancy/99047886",
+    "notes": "Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. Очень длинная заметка. ",
+    "createdAt": "2026-08-25T05:15:00.000Z"
+  },
+  {
+    "id": "5e9953d2-3e89-4c64-a117-dac3119c4ea3",
+    "company": "Дельта Веб",
+    "position": "Frontend-разработчик (React, TypeScript)",
+    "status": "rejected",
+    "salary": 170000,
+    "link": "https://hh.ru/vacancy/97351517",
+    "createdAt": "2026-08-24T04:21:00.000Z"
+  },
+  {
+    "id": "b3aa7efe-4458-4885-ab90-99a435a240ae",
+    "company": "Международная ассоциация разработчиков корпоративных информационных систем и облачных решений «Северо-Западный технологический альянс»",
+    "position": "React Developer",
+    "status": "screening",
+    "salary": 310000,
+    "link": "https://hh.ru/vacancy/92871230",
+    "createdAt": "2026-08-23T05:50:00.000Z"
+  },
+  {
+    "id": "1a50aec3-aabc-45fa-bfe1-2e47ae9bec36",
+    "company": "Юпитер Софт",
+    "position": "Middle Frontend Engineer",
+    "status": "screening",
+    "salary": 290000,
+    "link": "https://hh.ru/vacancy/96817881",
+    "createdAt": "2026-08-22T06:01:00.000Z"
+  },
+  {
+    "id": "2999b735-dd56-4c94-bc9a-d14cee0caeb5",
+    "company": "Нордлайн",
+    "position": "Middle Frontend Developer",
+    "status": "screening",
+    "salary": 250000,
+    "link": "https://hh.ru/vacancy/90415846",
+    "notes": "HR уточнила ожидания по зарплате",
+    "createdAt": "2026-08-22T03:10:00.000Z"
+  },
+  {
+    "id": "5563f616-00e8-4ece-8b49-452d46d483f3",
+    "company": "Сфера",
+    "position": "Middle Frontend Developer",
+    "status": "offer",
+    "salary": 320000,
+    "link": "https://hh.ru/vacancy/94394880",
+    "notes": "Предложили оффер, обсуждаем вилку",
+    "createdAt": "2026-08-22T01:25:00.000Z"
+  },
+  {
+    "id": "757750a9-a491-40b2-aa1f-ca65e27a984d",
+    "company": "Орбита ИТ",
+    "position": "Middle Frontend Developer",
+    "status": "interview",
+    "salary": 200000,
+    "link": "https://hh.ru/vacancy/92342608",
+    "notes": "Назначено собеседование с тимлидом",
+    "createdAt": "2026-08-22T00:26:00.000Z"
+  },
+  {
+    "id": "93cd59bf-5c94-4cf0-9c98-d2c1e2acf72f",
+    "company": "Техносфера Плюс",
+    "position": "Middle React Developer",
+    "status": "interview",
+    "salary": 140000,
+    "link": "https://hh.ru/vacancy/90768805",
+    "notes": "Назначено собеседование с тимлидом",
+    "createdAt": "2026-08-20T04:55:00.000Z"
+  },
+  {
+    "id": "fd5166e6-451b-4cf3-a123-fdf77656af72",
+    "company": "Айсберг Лабс",
+    "position": "Middle React Developer",
+    "status": "interview",
+    "salary": 220000,
+    "link": "https://hh.ru/vacancy/90938483",
+    "notes": "Назначено собеседование с тимлидом",
+    "createdAt": "2026-08-17T08:09:00.000Z"
+  },
+  {
+    "id": "f8cda88b-436d-46e2-b83c-fe0be037e5ed",
+    "company": "Флагман",
+    "position": "Middle Frontend Developer",
+    "status": "applied",
+    "salary": 280000,
+    "createdAt": "2026-08-15T22:28:00.000Z"
+  },
+  {
+    "id": "5cec4eb5-edd9-4831-9ca3-5cfb04fc6d82",
+    "company": "Бирюза",
+    "position": "Frontend-разработчик (React, TypeScript)",
+    "status": "interview",
+    "salary": 190000,
+    "link": "https://hh.ru/vacancy/90971823",
+    "notes": "Назначено собеседование с тимлидом",
+    "createdAt": "2026-08-12T23:55:00.000Z"
+  },
+  {
+    "id": "20a04502-6e06-4097-a5e9-79778d7248e2",
+    "company": "Эйдос",
+    "position": "Frontend Developer",
+    "status": "applied",
+    "salary": 210000,
+    "link": "https://hh.ru/vacancy/96117837",
+    "notes": "Отправил резюме и сопроводительное письмо",
+    "createdAt": "2026-08-12T03:47:00.000Z"
+  },
+  {
+    "id": "89a2688b-12c1-46e0-9998-5f15ff002d4d",
+    "company": "Эхо Лабс",
+    "position": "Middle React Developer",
+    "status": "rejected",
+    "salary": 280000,
+    "link": "https://hh.ru/vacancy/94449324",
+    "notes": "Отказ после технического интервью",
+    "createdAt": "2026-08-10T03:04:00.000Z"
+  },
+  {
+    "id": "2a25a888-0f02-4ad0-a706-7ef466aa9385",
+    "company": "Квант Про",
+    "position": "React / TypeScript Developer",
+    "status": "offer",
+    "salary": 120000,
+    "link": "https://hh.ru/vacancy/96550190",
+    "notes": "Оффер получен, думаю до пятницы",
+    "createdAt": "2026-08-10T01:42:00.000Z"
+  },
+  {
+    "id": "a76afde6-ce9e-4a11-bcbb-4e59fbddcf7c",
+    "company": "Клевер",
+    "position": "Frontend Developer",
+    "status": "applied",
+    "salary": 290000,
+    "link": "https://hh.ru/vacancy/95022741",
+    "notes": "Отправил резюме и сопроводительное письмо",
+    "createdAt": "2026-08-09T06:44:00.000Z"
+  }
+]
