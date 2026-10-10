@@ -21,18 +21,24 @@ const Applications = () => {
 
   return (
     <div>
-      <ul>
-        {data.items.map((item) => (
-          <li>
-            <h3>{item.position}</h3>
-            <p>{item.company}</p>
+      {data.items.length === 0 ? (
+        <div>Откликов пока нет</div>
+      ) : (
+        <ul>
+          {data.items.map((item) => (
+            <li key={item.id}>
+              <h3>{item.position}</h3>
+              <p>{item.company}</p>
 
-            <a href={item.link} target="_blank">
-              Открыть вакансию
-            </a>
-          </li>
-        ))}
-      </ul>
+              {item.link && (
+                <a href={item.link} target="_blank" rel="noreferrer">
+                  Открыть вакансию
+                </a>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };
