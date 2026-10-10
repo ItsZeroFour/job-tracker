@@ -2,6 +2,7 @@ import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import type { Filters } from "../model/types";
 import { fetchApplications } from "./ApplicationsApi";
 
+// Чтение данных с сервера и кладем их в кэш
 export const useApplications = (filters: Filters) =>
   useQuery({
     /*
