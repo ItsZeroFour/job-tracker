@@ -62,4 +62,62 @@ describe("ApplicationsPage", () => {
 
     expect(screen.getAllByText("Открыть вакансию")).toHaveLength(1);
   });
+
+  it("Переключает страницы по кнопке Вперед", async () => {
+    // vi.mocked(fetchApplications).mockResolvedValue({
+    //   items: [
+    //     makeApplication({ company: "Popa" }),
+    //     makeApplication({ company: "Pisun" }),
+    //   ],
+    //   total: 11,
+    // });
+
+    vi.mocked(fetchApplications).mockImplementation(async ({ page }) => ({
+      items:
+        page === 1
+          ? [makeApplication({ company: "Popa" })]
+          : [makeApplication({ company: "Pisun" })],
+      total: 11,
+    }));
+
+    const { user } = renderWithProviders(<Applications />);
+
+    // 1 стр
+    expect(await screen.findByText("Popa")).toBeInTheDocument();
+    expect(screen.queryByText("Pisun")).not.toBeInTheDocument();
+
+    // Клик
+    await user.click(screen.getByRole("button", { name: "Вперед" }));
+
+    // 2 стр
+    expect(await screen.findByText("Pisun")).toBeInTheDocument();
+    expect(screen.queryByText("Popa")).not.toBeInTheDocument();
+  });
+
+  it("Проверка на disabled у кнопок пагинации", async () => {
+    vi.mocked(fetchApplications).mockImplementation(async ({ page }) => ({
+      items:
+        page === 1
+          ? [makeApplication({ company: "Popa" })]
+          : [makeApplication({ company: "Pisun" })],
+      total: 11,
+    }));
+
+    const { user } = renderWithProviders(<Applications />);
+
+    expect(await screen.findByText("Popa")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Назад" })).toBeDisabled();
+    expect(screen.getByRole("button", { name: "Вперед" })).toBeEnabled();
+
+    await user.click(screen.getByRole("button", { name: "Вперед" }));
+    expect(await screen.findByText("Pisun")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Назад" })).toBeEnabled();
+    expect(screen.getByRole("button", { name: "Вперед" })).toBeDisabled();
+
+    await user.click(screen.getByRole("button", { name: "Назад" }));
+    expect(await screen.findByText("Popa")).toBeInTheDocument();
+    expect(screen.queryByText("Pisun")).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Назад" })).toBeDisabled();
+    expect(screen.getByRole("button", { name: "Вперед" })).toBeEnabled();
+  });
 });

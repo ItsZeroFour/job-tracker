@@ -6,6 +6,8 @@ export const STATUSES = [
   "rejected",
 ] as const;
 
+export const page_size: number = 10;
+
 export type Status = (typeof STATUSES)[number];
 
 export type Application = {
