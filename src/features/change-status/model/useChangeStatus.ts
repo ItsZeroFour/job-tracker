@@ -19,6 +19,10 @@ export const useChangeStatus = () => {
     onMutate: async ({ id, status }: MutationProps) => {
       await queryClient.cancelQueries({ queryKey: ["applications"] });
 
+      const previous = queryClient.getQueriesData<ApplicationsPage>({
+        queryKey: ["applications"],
+      });
+
       queryClient.setQueriesData<ApplicationsPage>(
         { queryKey: ["applications"] },
         (old) => {
@@ -35,10 +39,17 @@ export const useChangeStatus = () => {
           };
         },
       );
+
+      return { previous };
     },
 
-    onSuccess: () => {
-      return queryClient.invalidateQueries({ queryKey: ["applications"] });
+    onError: (_error, _variables, context) => {
+      context?.previous.forEach(([key, data]) => {
+        queryClient.setQueryData(key, data);
+      });
     },
+
+    onSuccess: () =>
+      queryClient.invalidateQueries({ queryKey: ["applications"] }),
   });
 };

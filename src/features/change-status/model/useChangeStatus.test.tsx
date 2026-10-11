@@ -66,4 +66,35 @@ describe("usewChangeStatus", () => {
       expect(result.current.list.data?.items[0].status).toEqual("interview"),
     );
   });
+
+  it("откатывает статус, если pathStatus упал", async () => {
+    vi.mocked(fetchApplications).mockResolvedValue({
+      items: [makeApplication({ id: "1", status: "applied" })],
+      total: 1,
+    });
+
+    vi.mocked(patchStatus).mockRejectedValue(new Error("Ошибка сервера"));
+
+    const { result } = renderHook(
+      () => ({
+        list: useApplications({ page: 1, status: "applied", search: "" }),
+        change: useChangeStatus(),
+      }),
+      { wrapper: createWrapper() },
+    );
+
+    await waitFor(() =>
+      expect(result.current.list.data?.items[0].status).toBe("applied"),
+    );
+
+    await act(async () => {
+      result.current.change.mutate({ id: "1", status: "interview" });
+    });
+
+    await waitFor(() => expect(result.current.change.isError).toBe(true));
+
+    await waitFor(() =>
+      expect(result.current.list.data?.items[0].status).toBe("applied"),
+    );
+  });
 });
